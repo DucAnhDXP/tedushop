@@ -10,7 +10,7 @@ using TeduShop.Model.Abstract;
 namespace TeduShop.Model.Models
 {
     [Table("Pages")]
-    class Page : Auditable
+    public class Page : Auditable
     {
         [Key]
         [MaxLength(50)]
